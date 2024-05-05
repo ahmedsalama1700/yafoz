@@ -1,0 +1,83 @@
+@import '../helpers/variables';
+.header{
+    background-color: #F88D21;
+    padding: 70px 15px 20px 15px;
+    
+  
+    position: relative;
+ 
+    .home-vector{
+
+
+    width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 140%;
+        z-index: 10;
+    }
+    .wave-vector{
+        position: absolute;
+        width: 75%;
+        left: 0;
+        bottom: 0;
+        height: 90%;
+        
+    }
+        .plate{
+            position: absolute;
+            width: 17%;
+            top: 0px;
+            right: 1%;
+        }
+        .soup{
+            position: absolute;
+            width: 13%;
+            bottom: 0px;
+            right: 1%;
+        }
+        .sandwitch{
+            position: absolute;
+            width: 13%;
+            bottom: 37%;
+            left: 4%;
+        }
+    
+
+    .mobile{
+        img{
+            width: 57%;
+            height: 95%;
+            margin-top: 35px;
+        }
+    }
+    .words{
+        display: flex;
+        align-items: center;
+        margin-right: 5px;
+        
+        h4{
+            text-align: right;
+            color: white;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 45px;
+            
+        }
+        p{
+            text-align: right;
+            color: white;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+
+
+        }
+    }
+    
+}
+
+
+
+
+

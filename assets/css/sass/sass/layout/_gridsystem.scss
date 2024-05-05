@@ -1,0 +1,106 @@
+
+@import '../helpers/variables';
+*{
+    @include prefixer(box-sizing , border-box,webkit moz)
+}
+
+.clearfix{
+    clear: both;
+}
+@media($maxmobile){
+    .header{
+        .mobile{
+            text-align: center;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .plate{
+            display: none;
+        }
+        .sandwitch{
+            display: none;
+        }
+        .soup{
+            display: none;
+        }
+
+    }
+   
+    .our-vision{
+        .imagess{
+            display: none;
+        }
+        .wordss{
+            text-align: center;
+            align-items: center !important;
+            justify-content: center;
+            display: flex;
+            margin: 50px 0;
+        }
+    }
+
+    .benifites{
+        .image{
+            display: none;
+        }
+    }
+    .start-today .overlay {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+    }
+    .start-today{
+      
+        .row{
+        .col-lg-8.text{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            .join{
+                width: 90%;
+            }
+            .texttt{
+                flex-direction: column;
+                margin-top: 25px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                button{
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+        .image{
+            display: none;
+
+        }
+    }
+    }
+    .join-us{
+        min-height: 50vh;
+    }
+    .our-vision{
+        padding: 50px;
+    }
+    
+}
+
+.benifites .wave-vector{
+    width: 150%;
+    height: 80%;
+}
+
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width: 992px) {
+
+
+}
